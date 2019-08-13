@@ -7,5 +7,4 @@ def reverse_each_word(input_str)
     holder.push(word.split(//).reverse.join)
   end
   holder.join(" ")
-  holder
 end
