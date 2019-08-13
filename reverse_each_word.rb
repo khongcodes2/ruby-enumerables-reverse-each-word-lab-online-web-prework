@@ -6,5 +6,5 @@ def reverse_each_word(input_str)
   word_str.collect do |word|
     holder.push(word.split(//).reverse.join)
   end
-  holder.join
+  holder.join(" ")
 end
