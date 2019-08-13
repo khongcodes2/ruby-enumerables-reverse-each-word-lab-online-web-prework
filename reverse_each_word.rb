@@ -4,7 +4,8 @@ def reverse_each_word(input_str)
   holder=[]
   #for each element in array, create new array
   word_str.each do |word|
-    memo.push(word.split(//).reverse.join)
-    
+    holder.push(word.split(//).reverse.join)
+    holder
   end
+  holder.join
 end
